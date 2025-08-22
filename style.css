@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.conteiner{
+    background-color: rgb(248, 214, 173);
+    border-radius: 10%;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+.links{
+    margin: 20px;
+    font-size: 30px;
+    background-color: burlywood;
+    padding: 3% 14%;
+    border-radius: 999px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+.links img{
+    width: 40px;
+
+}
+#tabela-precos {
+    font-size: 33px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: burlywood;
+    padding: 5px 30px;
+    font-family: sans-serif;
+    
+}
+#tabela-precos th{
+    border-bottom: 2px solid rgb(254, 194, 121);
+}
+.conteiner td{
+
+    border-collapse: collapse;
+    padding: 2px;
+    text-align: center;
+}
+#tabela-precos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-precos th,
+#tabela-precos td {
+    padding: 8px;
+    text-align: center;
+
+}
+@media (max-width: 640px) {
+  .links {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .conteiner {
+    border-radius: 20%;
+    padding: 2px;
+    gap: 2px;
+    width: 85%;
+  }
+
+  .links img {
+    width: 30px;
+    padding-right: 10px;
+  }
+  #tabela-precos{
+    font-size: 1em;
+
+  }
+}
